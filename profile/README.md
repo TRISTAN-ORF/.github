@@ -22,6 +22,7 @@ To illustrate (to expand)
  - No custom positive/negative set
  - Inclusion of full transcriptome
  - separation of training / validation / test set by chromosomes
+ - No hardcoded rules altering data/predictions (e.g. multicistronic transcripts, start codon use, ...)
  - PR/ROC AUC scores used for evaluation and benchmarking
  - various output file formats that can be easily plugged into downstream analyses tools
  - output file format customizability
