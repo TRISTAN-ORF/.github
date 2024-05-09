@@ -31,7 +31,7 @@ To illustrate (to expand)
 
 **Why not create a model that is trained on both transcript sequence and ribosome profiling data?**
 
-Models trained on sequencing data are susceptible to incorporating biases existent in todays annotations (e.g. codon usage, start codons frequency, ...). On the other hand, models applying ribosome profiling data are restricted by the read depth and translation profile of the organism.
+Models trained on sequencing data are susceptible to incorporating biases existent in todays annotations (e.g. codon usage, start codons frequency, ...). On the other hand, models applying ribosome profiling data are restricted by the read depth of the sample and translation profile of the organism.
 Both models, in essence, trt to answer different questions (i.e., What ORFs look viable to be translated based on sequence context / What ORFs are actively being translated based on ribosome protected fragment distributions). 
 We determined that the combination of both modalities of data within a single model obfuscates the function of that model.
 
